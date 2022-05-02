@@ -1,0 +1,40 @@
+:root {
+    --theme-color: rgb(217, 7, 88);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    h1 {
+        font-size: 60px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    h2 {
+        font-size: 40px;
+        height: 46px;
+    }
+    button {
+        font-size: 20px;
+        padding: 15px;
+        background-color: var(--theme-color);
+        border-radius: 10px;
+        border: none;
+        color: white;
+    }
+    span {
+        text-decoration: underline;
+        text-decoration-color: var(--theme-color);
+        &:nth-child(1) {
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+        &:nth-child(2) {
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+    }
+}

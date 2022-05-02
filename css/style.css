@@ -1,0 +1,57 @@
+:root {
+  --theme-color: rgb(217, 7, 88);
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: sans-serif;
+}
+
+body h1 {
+  font-size: 60px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+body h2 {
+  font-size: 40px;
+  height: 46px;
+}
+
+body button {
+  font-size: 20px;
+  padding: 15px;
+  background-color: var(--theme-color);
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+
+body span {
+  text-decoration: underline;
+  -webkit-text-decoration-color: var(--theme-color);
+          text-decoration-color: var(--theme-color);
+}
+
+body span:nth-child(1) {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+body span:nth-child(2) {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+/*# sourceMappingURL=style.css.map */
